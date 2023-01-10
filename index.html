@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Codificador de mensagens</title>
+			<link rel="stylesheet" href="reset.css">
+			<link rel="stylesheet" href="style.css">
+			<link rel="shortcut icon" type="text/css" href="logo-alura-azul.png">
+		</head>
+		<body>
+			<main class="main-container">
+
+				<header>
+					<h1>Alura | ONE - Oracle Next Education</h1>
+					<h2>Codificador de mensagens</h2>
+				</header>
+
+				<div class="container-input">
+					<div class="input">
+						<textarea id="input-text" placeholder="Digite seu texto..."></textarea>
+						<p>&#9888; ATENÇÃO: Somente letras minúsculas e sem acento.</p>
+					</div>
+
+					<div id="output">
+						<textarea readonly id="result" placeholder="Digite algo para criptografar ou descriptografar."></textarea>
+					</div>
+				</div>
+
+					<div class="buttons">
+						<div class="container-button">
+							<button onclick="encode()" class="btn-criptografar">Criptografar</button>
+							<button onclick="decode()" class="btn-descriptografar">Descriptografar</button>
+							<button class="btn-copy" id="copy" onclick="copy()">Copiar</button>'
+						</div>
+					</div>	
+
+			</main>
+
+			<footer>
+				<div class="icons">
+					<h3>Vinycios Navarro</h3>
+					<a href="https://www.linkedin.com/in/vinycios-navarro-de-lima-santos-b2a132218"><ion-icon name="logo-linkedin"></ion-icon></a>
+					<a href=""><ion-icon name="logo-github"></ion-icon></a>
+					<a href="https://www.instagram.com/viny_n03/"><ion-icon name="logo-instagram"></ion-icon></a>	
+
+				</div>
+				
+			</footer>
+
+			<script src="script.js"></script>
+			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+		</body>
+</html>
