@@ -10,14 +10,6 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-header img {
-	position: absolute;
-	top: 8;
-	left: 5;
-	width:50px; 
-	height:50px;
-}
-
 header h1 {
 	display: inline-block;
 	margin-top: 1%;
@@ -121,6 +113,24 @@ header h2 {
 	margin-left: 18%;
 }
 
+.btn-criptografar:hover {
+	background: darkorange;
+	transform: scale(1.1);
+	transition: 0.10s all;
+}
+
+.btn-descriptografar:hover {
+	background: darkorange;
+	transform: scale(1.1);
+	transition: 0.10s all;
+}
+
+.btn-copy:hover {
+	background: darkorange;
+	transform: scale(1.1);
+	transition: 0.10s all;
+}
+
 footer{
 	text-align: center;
 	margin-top: 5%;
@@ -129,4 +139,34 @@ footer{
 footer h3{
 	color: #F0F0F0;
 	font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+	header h2 {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		text-align: center;
+	}
+
+	/*todos os inputs*/
+	.container-input {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.container-input .input, #output {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	}
+
+	.buttons {
+		margin-left: 25%; 
+	}
+
+
 }
